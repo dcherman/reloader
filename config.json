@@ -1,0 +1,17 @@
+{
+    "notifyEmail": "daniel.c.herman@gmail.com",
+    "smtp": "sendmail",
+    "powders": [
+        "Alliant Unique, 1LB",
+        "Alliant Unique, 4LB",
+        "Alliant Unique, 8LB",
+        "Hodgdon HP-38, 1LB",
+        "Hodgdon HP-38, 8LB",
+        "Hodgdon Titegroup, 1LB",
+        "Hodgdon Titegroup, 4LB",
+        "Hodgdon Titegroup, 8LB",
+        "Winchester 231, 1LB",
+        "Winchester 231, 4LB",
+        "Winchester 231, 8LB"
+    ]
+}
