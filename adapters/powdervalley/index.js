@@ -41,7 +41,7 @@ module.exports = function( powders ) {
                     return {
                         id: /[a-z0-9\-]+/i.exec( cells.first().text() )[ 0 ],
                         stock: cells.eq( 2 ).text().trim() === 'Yes',
-                        price: cells.eq( 3 ).text().trim()
+                        price: parseFloat( /\d+\.\d+/.exec( cells.eq( 3 ).text() )[0] )
                     };
                 }).get();
             });
